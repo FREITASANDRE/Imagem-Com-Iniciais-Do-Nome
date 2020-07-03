@@ -1,5 +1,6 @@
  
-		public static byte[] GenerateImage(String text) //Enviar o texto para imagem
+		
+        public static byte[] GenerateImage(String text) //Enviar o texto para imagem
         {
             Random randomGen = new Random();
             Color color = Color.FromArgb(randomGen.Next(50, 245), randomGen.Next(50, 220), randomGen.Next(100, 210));
